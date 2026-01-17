@@ -3,7 +3,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Clock, CheckCircle2, AlertCircle, Users, Calendar } from "lucide-react";
 
 interface Project {
